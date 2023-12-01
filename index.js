@@ -1,3 +1,7 @@
+function refreshPage() {
+    window.location.reload();
+}
+
 function rollDie() {
     var randomNumber = Math.floor(Math.random()*6) + 1;
     var randomNumber2 = Math.floor(Math.random()*6) + 1;
